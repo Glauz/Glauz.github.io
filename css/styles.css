@@ -169,14 +169,14 @@ html, body, p, h1, h2, h3, h4, h5{
   }
 
 
-  .media-zoom{
+  /* .media-zoom{
     transition: all .2s ease-in-out; 
   }
 
   .media-zoom:hover{
     transform: scale(1.02);
     cursor: pointer;
-  }
+  } */
 
   /* .icon-zoom{
     transition: all .2s ease-in-out; 
