@@ -1,0 +1,65 @@
+<div class="sidenav">
+
+    <img class="logo media-zoom" src="{{ "/img/Glauz Logo Cutout.png" | prepend: site.baseurl }}" alt="">
+    <div class="name">Glauz</div>     
+
+    <nav>
+        <a href="/">About</a>
+        <a href="/">Portfolio</a>
+        <!-- <a href="{{ "index.html" | prepend: site.baseurl }}">Posts</a> -->
+        <a href="/videos.html">Videos</a>
+    </nav>
+
+    <div class="contact-container">
+        <!-- <i class="fab fa-facebook"></i> -->
+        <i class="contact-icon icon-zoom fab fa-youtube"></i>
+        <i class="contact-icon icon-zoom fab fa-github"></i>
+        <i class="contact-icon icon-zoom fas fa-envelope"></i>
+        <i class="contact-icon icon-zoom fab fa-discord"></i>
+        <i class="contact-icon icon-zoom fab fa-itch-io"></i>
+    </div>
+
+    <!-- ***** TAG LIST ***** -->
+    <div class="red-linebreak"></div>
+
+    <div class="tag-container">
+        <div class="tag">LudumDare</div>
+        <div class="tag">Blender</div>
+        <div class="tag">Unity3D</div>
+        <div class="tag">C#</div>
+        <div class="tag">Godot</div>
+        <div class="tag">Love2D</div>
+        <div class="tag">Krita</div>
+        <div class="tag">Monogame</div>
+        <div class="tag">RPG Maker</div>
+        <div class="tag">Open Source</div>
+        <div class="tag">Photoshop</div>
+        <div class="tag">GameJam</div>
+        <div class="tag">ICT</div>
+        <div class="tag">Concept</div>
+        <div class="tag">Test</div>
+        <div class="tag">Other</div>
+
+        <!--TAGS LOOP-->
+        
+        <!-- {% assign pages = (site.pages | sort: 'pdate') %}
+        {% for page in pages reversed %}
+          {% if page.category contains 'project' %}
+
+
+            {% for tags in page.tags %}
+
+                <div class="tag">{{ tags }}</div>
+
+            {% endfor %}
+  
+          {% endif %}
+        {% endfor %} -->
+
+
+        
+    </div>
+    <!-- Tag List -->
+
+
+</div>

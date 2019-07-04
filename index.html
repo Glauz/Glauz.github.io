@@ -1,0 +1,16 @@
+---
+layout: grid
+---
+
+{% assign pages = (site.pages | sort: 'pdate') %}
+{% for page in pages reversed %}
+  {% if page.category contains 'project' %}
+
+
+    <a href="{{ page.url | relative_url }}">
+    <img class="media-zoom fade-in responsive" src="{{page.imgDir}}/splash.png" alt="{{page.title}} splash image">
+    </a>
+
+  {% endif %}
+{% endfor %}
+
